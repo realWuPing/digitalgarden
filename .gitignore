@@ -131,3 +131,4 @@ dist
 
 # hexo
 public/
+db.json
