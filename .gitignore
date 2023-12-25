@@ -131,4 +131,5 @@ dist
 
 # hexo
 public/
+.deploy_git/
 db.json
