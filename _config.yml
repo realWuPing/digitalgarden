@@ -99,6 +99,21 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: yinwang
 
+# RSS
+feed:
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
