@@ -105,11 +105,11 @@ feed:
     - atom
   path:
     - atom.xml
-  limit: 20
+  limit: false
   hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
+  content: true
+  #content_limit: 140
+  #content_limit_delim: ' '
 
 
 # Deployment
